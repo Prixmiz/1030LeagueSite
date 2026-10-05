@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(127, 198, 164);
+    text-align: center;
+}
+
+h1, h3{
+    text-align: center;
+    color: rgb(36, 79, 38);
+}
+
+h4{
+    color: rgb(129, 82, 63)
+}
+
+p{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    text-decoration:solid
+}
+
+a:link {
+    color: rgb(255, 74, 28);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 74, 28);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(32, 27, 26);
+    text-decoration: none;
+} 
+
+
+.boxes{
+            margin: 0;
+            height: 100px;        
+            display: flex;            
+            justify-content: center;   
+            align-items: center;      
+            background-color: rgb(252, 186, 142);
+            box-shadow: 5px 10px #253121ce;
+            border-radius: 5px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+    
+}
